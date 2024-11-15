@@ -1,4 +1,5 @@
 from funcion_qr.uso import uso_qr
+from funcion_qr.generador import generador_qr
 
 
 while True:
@@ -11,7 +12,7 @@ while True:
     try:
         usuario = int(input("Ingresa una opcion: "))
         if usuario == 1:
-            print("Funcion proxima.")
+            generador_qr()
         elif usuario == 2:
             uso_qr()
         else:
