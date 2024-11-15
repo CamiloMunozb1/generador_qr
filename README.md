@@ -9,17 +9,17 @@ Este proyecto es una herramienta para generar códigos QR personalizados. Puedes
 # Instalacion
 -Clona este repositorio:
 
-  git clone https://github.com/CamiloMunozb1/generador_qr.git
-  cd generador_qr
+    git clone https://github.com/CamiloMunozb1/generador_qr.git
+    cd generador_qr
   
 -Instala las dependencias necesarias:
 
-  pip install -r requirements.txt
+    pip install -r requirements.txt
 
 # USO
 1. Ejecuta el archivo principal para abrir el generador QR:
    
-    python generador_qr.py
+      python generador_qr.py
    
 2. Introduce el texto o URL que desees convertir en un código QR.
 3. Guarda la imagen generada en el formato deseado.
